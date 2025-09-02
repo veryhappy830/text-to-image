@@ -53,12 +53,12 @@ if __name__ == "__main__":
     prompt = input("Prompt: ")
     
     # Generate and save the image
-    for i in range(8):
-        generated_image = generate_image_from_text(
-            prompt=prompt,
-            output_path=f"output/output_{i}.png",
-            num_inference_steps=30
-        )
+    # for i in range(8):
+    generated_image = generate_image_from_text(
+        prompt=prompt,
+        output_path=f"output/output.png",
+        num_inference_steps=30
+    )
     
     # Display the image (optional)
     # generated_image.show()
