@@ -57,8 +57,7 @@ if __name__ == "__main__":
         generated_image = generate_image_from_text(
             prompt=prompt,
             output_path=f"output/output_{i}.png",
-            num_inference_steps=30,
-            seed=50
+            num_inference_steps=30
         )
     
     # Display the image (optional)
